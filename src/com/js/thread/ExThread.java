@@ -20,8 +20,6 @@ public class ExThread {
 		System.out.println("소요시간 : " + (System.currentTimeMillis()-startTime));
 		// 멀티 쓰레드 방식으로 실행
 	}
-
-
 }
 
 class ThreadEx1 extends Thread { // Thread 클래스를 상속 받아 구현하는 방식
